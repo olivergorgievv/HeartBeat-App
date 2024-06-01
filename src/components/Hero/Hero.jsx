@@ -20,6 +20,19 @@ function Cta() {
             <a href="#" className="btn btn--outline">
               Learn more &darr;
             </a>
+            <div className="delivered-meals">
+              <div className="delivered-faces">
+                <img src="https://omnifood.dev/img/customers/customer-1.jpg" />
+                <img src="https://omnifood.dev/img/customers/customer-2.jpg" />
+                <img src="https://omnifood.dev/img/customers/customer-3.jpg" />
+                <img src="https://omnifood.dev/img/customers/customer-4.jpg" />
+                <img src="https://omnifood.dev/img/customers/customer-5.jpg" />
+                <img src="https://omnifood.dev/img/customers/customer-6.jpg" />
+              </div>
+              <p className="delivered-text">
+                <span>50,000+</span> meals delivered last year!
+              </p>
+            </div>
           </div>
           <div className="hero-img-box">
             <img
