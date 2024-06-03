@@ -5,7 +5,7 @@
 .cta {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: #ff5e15;
+  background-color: rgba(255, 94, 21, 0.8);
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
   border-radius: 12px;
   overflow: hidden;
@@ -22,4 +22,25 @@
     url(https://omnifood.dev/img/eating.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta .heading-secondary {
+  margin-bottom: 3.2rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
 }
