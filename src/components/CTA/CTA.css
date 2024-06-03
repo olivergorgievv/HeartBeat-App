@@ -1,0 +1,25 @@
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #ff5e15;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+  /* temp */
+  height: 50rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 94, 21, 0.4),
+      rgba(255, 94, 21, 0.4)
+    ),
+    url(https://omnifood.dev/img/eating.jpg);
+  background-size: cover;
+  background-position: center;
+}
