@@ -39,12 +39,12 @@ function CallToAction() {
                   <option value="others">Others</option>
                 </select>
               </div>
-              <button className="btn" type="submit">
+              <button className="btn btn--form" type="submit">
                 Sign up now
               </button>
             </form>
           </div>
-          <div className="cta-img-box">Image</div>
+          <div className="cta-img-box"></div>
         </div>
       </div>
     </section>

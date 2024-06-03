@@ -5,7 +5,9 @@ function Cta() {
   return (
     <main className="section-header">
       <header className="header">
-        <img src={logo} className="logo" />
+        <a href="#">
+          <img src={logo} className="logo" />
+        </a>
         <nav className="main-nav">
           <ul className="main-nav-list">
             <li>

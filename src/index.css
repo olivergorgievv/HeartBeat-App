@@ -21,6 +21,10 @@ body {
   padding: 0 3.2rem;
 }
 
+.logo {
+  height: 3.8rem;
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
@@ -50,6 +54,20 @@ body {
   font-size: 3.8rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
+}
+
+.btn--form {
+  align-self: end;
+  margin: 0;
+  background-color: black;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
 }
 
 .btn:link,
@@ -92,6 +110,11 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem #f5753a;
+}
+
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -112,6 +135,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {

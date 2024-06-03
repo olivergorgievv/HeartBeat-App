@@ -14,10 +14,6 @@
   margin: 0 auto;
 }
 
-.logo {
-  height: 3.8rem;
-}
-
 .main-nav-list {
   list-style: none;
   display: flex;

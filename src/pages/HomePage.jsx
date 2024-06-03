@@ -6,6 +6,7 @@ import Meals from "../components/MealsDiets/Meals";
 import Testiominals from "../components/Testimonials/Testiominals";
 import PricingAndFeatures from "../components/Pricing & Features/PricingAndFeatures";
 import CallToAction from "../components/CTA/CTA";
+import Footer from "../components/Footer/Footer";
 
 function HomePage() {
   return (
@@ -18,6 +19,7 @@ function HomePage() {
       <Testiominals />
       <PricingAndFeatures />
       <CallToAction />
+      <Footer />
     </>
   );
 }
