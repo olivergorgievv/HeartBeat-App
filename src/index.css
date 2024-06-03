@@ -51,7 +51,7 @@ body {
 }
 
 .heading-secondary {
-  font-size: 3.8rem;
+  font-size: 4.4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }
@@ -123,6 +123,10 @@ body {
 
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
 .grid--2-cols {

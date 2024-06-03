@@ -4,7 +4,7 @@ import logo from "../../assets/logo.svg";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="container grid grid--5-cols">
+      <div className="container grid grid--footer">
         <div className="logo-col">
           <a href="#">
             <img src={logo} alt="" className="logo logo-footer" />
