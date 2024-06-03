@@ -4,6 +4,7 @@ import HowItWorks from "../components/HowItWorks/HowItWorks";
 import FeaturedIn from "../components/Featured in/FeaturedIn";
 import Meals from "../components/MealsDiets/Meals";
 import Testiominals from "../components/Testimonials/Testiominals";
+import PricingAndFeatures from "../components/Pricing & Features/PricingAndFeatures";
 
 function HomePage() {
   return (
@@ -14,6 +15,7 @@ function HomePage() {
       <HowItWorks />
       <Meals />
       <Testiominals />
+      <PricingAndFeatures />
     </>
   );
 }

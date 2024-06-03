@@ -76,14 +76,6 @@
   background-color: #ffd43b;
 }
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-  padding: 0;
-}
-
 .all-recipes {
   text-align: center;
   font-size: 1.8rem;

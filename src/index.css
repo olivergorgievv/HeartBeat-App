@@ -12,6 +12,8 @@ body {
 
 /***************** REUSABLE COMPONENTS *******************/
 
+/*   color: #6b7280; DESCRIPTION COLOR */
+
 .container {
   max-width: 130rem;
   margin: 0 auto;
@@ -108,6 +110,14 @@ body {
 
 .strong {
   font-weight: 500;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  padding: 0;
 }
 
 .link:link,
