@@ -38,7 +38,7 @@ function Testiominals() {
               className="testimonial-img"
             />
             <blockquote className="testimonial-text">
-              Omnifood is a life saver! I just started a company, so
+              FoodCreila is a life saver! I just started a company, so
               there&apos;s no time for cooking. I couldn&apos;t live without my
               daily meals now!
             </blockquote>
@@ -50,8 +50,8 @@ function Testiominals() {
               className="testimonial-img"
             />
             <blockquote className="testimonial-text">
-              I got Omnifood for the whole family, and it frees up so much time!
-              Plus, everything is organic and vegan and without plastic.
+              I got FoodCreila for the whole family, and it frees up so much
+              time! Plus, everything is organic and vegan and without plastic.
             </blockquote>
             <p className="testimonial-name">&mdash; Hannah Smith</p>
           </figure>
