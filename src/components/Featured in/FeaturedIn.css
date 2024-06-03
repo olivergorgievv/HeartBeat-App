@@ -15,6 +15,13 @@
 .logos img {
   filter: contrast(0);
   height: 3.2rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.logos img:hover {
+  filter: contrast(1);
+  height: 3.2rem;
 }
 
 .logos {
