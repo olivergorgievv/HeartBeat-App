@@ -7,5 +7,13 @@
 }
 
 @media (max-width: 59em) {
-  /* Bellow 944 px(Tablets) */
+  /* Bellow 944px(Tablets) */
+}
+
+@media (max-width: 44em) {
+  /* Bellow 704px(smaller tables) */
+}
+
+@media (max-width: 34em) {
+  /* Bellow 550px(phones) */
 }

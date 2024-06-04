@@ -92,3 +92,16 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 34em) {
+  .cta {
+    grid-template-columns: 1fr;
+  }
+  .cta-img-box {
+    height: 46rem;
+    grid-row: 1;
+  }
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+}

@@ -117,3 +117,10 @@ aside {
     line-height: 1.2;
   }
 }
+
+@media (max-width: 44em) {
+  .pricing-plan {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
