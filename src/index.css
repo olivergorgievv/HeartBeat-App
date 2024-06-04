@@ -2,6 +2,23 @@ html {
   font-size: 62.5%;
 }
 
+/* ALL FONT SIZES ARE NOW 9px */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+}
+
 body {
   margin: 0;
   font-family: Rubik, Inter;
@@ -35,6 +52,12 @@ body {
 
 .margin-bottom-sm {
   margin-bottom: 3.2rem !important;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
 }
 
 .heading-primary,
@@ -175,4 +198,10 @@ body {
 .link:active {
   color: #d04b0d;
   border-bottom: 1px solid transparent;
+}
+
+@media (max-width: 75em) {
+  .heading-primary {
+    font-size: 3.4rem;
+  }
 }

@@ -21,6 +21,12 @@
   padding: 9.6rem;
 }
 
+@media (max-width: 75em) {
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
 .testimonial-img {
   width: 6.4rem;
   border-radius: 50%;
@@ -62,4 +68,16 @@
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 84em) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 84em) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

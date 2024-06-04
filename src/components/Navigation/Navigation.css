@@ -17,7 +17,7 @@
 .main-nav-list {
   list-style: none;
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 }
 
@@ -47,4 +47,10 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #d04b0d;
+}
+
+@media (max-width: 75em) {
+  .main-nav-list {
+    gap: 3.2rem;
+  }
 }

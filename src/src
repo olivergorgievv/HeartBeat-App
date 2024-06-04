@@ -1,0 +1,46 @@
+.
+├── App.jsx
+├── assets
+│   ├── fire.svg
+│   ├── fork.svg
+│   ├── logo.svg
+│   └── star.svg
+├── components
+│   ├── CTA
+│   │   ├── CTA.css
+│   │   └── CTA.jsx
+│   ├── Featured in
+│   │   ├── FeaturedIn.css
+│   │   └── FeaturedIn.jsx
+│   ├── Footer
+│   │   ├── Footer.css
+│   │   └── Footer.jsx
+│   ├── Gallery
+│   │   ├── Gallery.css
+│   │   └── Gallery.jsx
+│   ├── Hero
+│   │   ├── Hero.css
+│   │   └── Hero.jsx
+│   ├── HowItWorks
+│   │   ├── HowItWorks.css
+│   │   └── HowItWorks.jsx
+│   ├── MealsDiets
+│   │   ├── Meals.css
+│   │   └── Meals.jsx
+│   ├── Navigation
+│   │   ├── Navigation.css
+│   │   └── Navigation.jsx
+│   ├── Pricing & Features
+│   │   ├── PricingAndFeatures.css
+│   │   └── PricingAndFeatures.jsx
+│   └── Testimonials
+│       ├── Testiominals.css
+│       └── Testiominals.jsx
+├── index.css
+├── main.jsx
+├── pages
+│   └── HomePage.jsx
+├── queries.css
+└── src
+
+14 directories, 30 files
