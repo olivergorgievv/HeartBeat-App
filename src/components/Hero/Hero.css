@@ -7,6 +7,25 @@
   padding-top: 15.5rem;
 }
 
+.btn--hero:link,
+.btn--hero:visited {
+  display: inline-block;
+
+  box-shadow: 0 0 0 0.18rem inset #c4c9d2;
+  color: #000000;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.btn--hero:hover,
+.btn--hero:active {
+  box-shadow: 0 0 0 0.18rem inset rgb(157, 156, 156);
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;

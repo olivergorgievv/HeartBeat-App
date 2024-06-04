@@ -17,7 +17,7 @@ function Cta() {
             <a href="#cta" className="btn btn-full margin-right-sm">
               Start eating well
             </a>
-            <a href="#how" className="btn btn--outline">
+            <a href="#how" className="btn--hero">
               Learn more &darr;
             </a>
             <div className="delivered-meals">
