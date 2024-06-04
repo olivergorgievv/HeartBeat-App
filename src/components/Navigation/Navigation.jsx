@@ -4,37 +4,44 @@ import "./Navigation.css";
 
 function Cta() {
   const [isOpen, setIsOpen] = useState("");
+  // const [userHasScrolled, setUserHasScrolled] = useState(false);
+
+  // window.onscroll = function (e) {
+  //   setTimeout(() => {
+  //     setUserHasScrolled(true);
+  //   }, 1000);
+  // };
 
   return (
-    <main className="section-header">
-      <header className={`header ${isOpen}`}>
+    <main className={`section-header sticky`}>
+      <header className={`header ${isOpen} `}>
         <a href="#">
           <img src={logo} className="logo" alt="Logo" />
         </a>
         <nav className="main-nav">
           <ul className="main-nav-list">
             <li>
-              <a className="main-nav-link" href="#">
+              <a className="main-nav-link" href="#how">
                 How it Works
               </a>
             </li>
             <li>
-              <a className="main-nav-link" href="#">
+              <a className="main-nav-link" href="#meals">
                 Meals
               </a>
             </li>
             <li>
-              <a className="main-nav-link" href="#">
+              <a className="main-nav-link" href="#testimonials">
                 Testimonials
               </a>
             </li>
             <li>
-              <a className="main-nav-link" href="#">
+              <a className="main-nav-link" href="#pricing">
                 Pricing
               </a>
             </li>
             <li>
-              <a className="main-nav-link nav-cta" href="#">
+              <a className="main-nav-link nav-cta" href="#cta">
                 Try for free
               </a>
             </li>

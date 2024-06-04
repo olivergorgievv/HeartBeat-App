@@ -2,7 +2,7 @@ import "./Meals.css";
 
 function Meals() {
   return (
-    <section className="section-meals">
+    <section className="section-meals" id="meals">
       <div className="container center-text">
         <span className="subheading">Meals</span>
         <h2 className="heading-secondary">

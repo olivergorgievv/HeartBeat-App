@@ -3,6 +3,10 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 
+.section-hero {
+  padding-top: 15.5rem;
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -63,6 +67,9 @@
 }
 
 @media (max-width: 59em) {
+  .section-hero {
+    padding-top: 12rem;
+  }
   .hero {
     grid-template-columns: 1fr;
     gap: 6.4rem;
@@ -84,6 +91,7 @@
 @media (max-width: 34em) {
   .section-hero {
     padding: 2.4rem 0 6.4rem 0;
+    padding-top: 12rem;
   }
   .hero {
     padding: 0 3.2rem;

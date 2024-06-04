@@ -3,7 +3,7 @@ import "./HowItWorks.css";
 function HowItWorks() {
   return (
     <>
-      <section className="section-how">
+      <section className="section-how" id="how">
         <div className="container">
           <span className="subheading">How it works</span>
           <h2 className="heading-secondary">

@@ -2,7 +2,7 @@ import "./PricingAndFeatures.css";
 
 function PricingAndFeatures() {
   return (
-    <section className="section-pricing">
+    <section className="section-pricing" id="pricing">
       <div className="container">
         <span className="subheading"> Pricing </span>
         <h2 className="heading-secondary">
