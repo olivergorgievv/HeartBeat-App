@@ -99,3 +99,9 @@
   height: 3rem;
   color: #51cf66;
 }
+
+@media (max-width: 59em) {
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+}

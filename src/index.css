@@ -19,6 +19,12 @@ html {
   }
 }
 
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
   margin: 0;
   font-family: Rubik, Inter;
@@ -91,6 +97,12 @@ body {
   padding: 1.2rem;
   border-radius: 9px;
   transition: all 0.3s;
+}
+
+@media (max-width: 59em) {
+  .btn--form {
+    margin-top: 1.2rem;
+  }
 }
 
 .btn:link,

@@ -21,6 +21,32 @@
   align-items: center;
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+/* MOBILE NAVIGATION */
+@media (max-width: 59em) {
+  .btn-mobile-nav {
+    display: block;
+  }
+}
+
+.icon-mobile-nav {
+  font-size: 4.8rem;
+  height: 4.8rem;
+  height: 4.8rem;
+  color: #6b7280;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline block;

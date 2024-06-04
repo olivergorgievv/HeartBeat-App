@@ -5,3 +5,7 @@
 @media (max-width: 75em) {
   /* Bellow 1200px(Landscape Tablets) */
 }
+
+@media (max-width: 59em) {
+  /* Bellow 944 px(Tablets) */
+}

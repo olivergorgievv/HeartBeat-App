@@ -69,8 +69,8 @@
   color: #6b7280;
 }
 
-.heading-tertiary {
-  font-size: 3rem;
-  line-height: 1.2;
-  margin-bottom: 3.2rem;
+@media (max-width: 59em) {
+  .step-number {
+    font-size: 7.4rem;
+  }
 }

@@ -111,3 +111,9 @@ aside {
   line-height: 1.6;
   text-align: center;
 }
+
+@media (max-width: 59em) {
+  .list-item {
+    line-height: 1.2;
+  }
+}

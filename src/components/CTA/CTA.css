@@ -83,3 +83,12 @@
   outline: none;
   box-shadow: 0 0 0 0.3rem #bc5a2c;
 }
+
+@media (max-width: 59em) {
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+}

@@ -81,3 +81,12 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (max-width: 59em) {
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}

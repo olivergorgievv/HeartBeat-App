@@ -37,11 +37,15 @@ function Cta() {
             <li>
               {" "}
               <a className="main-nav-link nav-cta" href="#">
-                Pricing
+                Try for free
               </a>
             </li>
           </ul>
         </nav>
+        <button className="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </header>
     </main>
   );
