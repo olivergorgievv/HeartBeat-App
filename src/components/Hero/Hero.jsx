@@ -7,15 +7,15 @@ function Cta() {
         <div className="hero">
           <div className="hero-text-box">
             <h1 className="heading-primary">
-              A Healthy meal delivered to your door, every single day
+              The all-in-one platform for community businesses
             </h1>
             <p className="hero-description">
-              The smart 365-days-per-year food subscription that will make you
-              eat healthy again. Tailored to your personal tastes and
-              nutritional needs. We have delivered 250,000+ meals last year!
+              We moved all of our courses — over 1000 lessons — onto Heartbeat
+              and built space for our morning meet-ups and evening story-telling
+              experiences.
             </p>
             <a href="#cta" className="btn btn-full margin-right-sm">
-              Start eating well
+              Start chatting
             </a>
             <a href="#how" className="btn--hero">
               Learn more &darr;
@@ -30,7 +30,7 @@ function Cta() {
                 <img src="https://omnifood.dev/img/customers/customer-6.jpg" />
               </div>
               <p className="delivered-text">
-                <span>50,000+</span> meals delivered last year!
+                <span>500,000+</span> messages sent last year!
               </p>
             </div>
           </div>

@@ -6,7 +6,7 @@ function Testiominals() {
       <div className="testimonials-container">
         <span className="subheading">Testimonials</span>
         <h2 className="heading-secondary">
-          Once you try it, you can&apos;t go back
+          Resources to help you build faster
         </h2>
 
         <div className="testimonials">

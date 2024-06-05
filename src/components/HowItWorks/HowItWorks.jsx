@@ -7,7 +7,7 @@ function HowItWorks() {
         <div className="container">
           <span className="subheading">How it works</span>
           <h2 className="heading-secondary">
-            Your daily dose of health in 3 simple steps
+            Design a vibrant space to chat & connect
           </h2>
         </div>
         {/* STEP 01 */}
@@ -15,36 +15,32 @@ function HowItWorks() {
           <div className="step-text-box">
             <p className="step-number">01</p>
             <h3 className="heading-tertiary">
-              Tell us what you like (and what not)
+              Craft fun & engaging learning journeys
             </h3>
             <p className="step-description">
-              Never again waste time thinking about what to eat! FoodCreila AI
-              will create a 100% personalized weekly meal plan just for you. It
-              makes sure you get all the nutrients and vitamins you need, no
-              matter what diet you follow!
+              Evergreen courses Cohort-based courses Drip lessons Free previews
+              & upsells Public & private assignments Native video hosting Push
+              notifications Automated workflows
             </p>
           </div>
           <div className="step-img-box">
-            <img
-              src="https://omnifood.dev/img/app/app-screen-1.png"
-              className="step-img"
-            />
+            <img src="https://i.imgur.com/CcE8a0t.png" className="step-img" />
           </div>
 
           {/* STEP 02 */}
           <div className="step-img-box">
-            <img
-              src="https://omnifood.dev/img/app/app-screen-2.png"
-              className="step-img"
-            />
+            <img src="https://i.imgur.com/0Z4PIyc.png" className="step-img" />
           </div>
           <div className="step-text-box">
             <p className="step-number">02</p>
-            <h3 className="heading-tertiary">Approve your weekly meal plan</h3>
+            <h3 className="heading-tertiary">
+              Host live events directly in Heartbeat
+            </h3>
             <p className="step-description">
-              Once per week, approve the meal plan generated for you by
-              FoodCreila AI. You can change ingredients, swap entire meals, or
-              even add your own recipes.
+              Public & private events Paid event tickets Track attendance & save
+              recordings Automatic feedback collection Recurring & one-off
+              events Email reminders Zoom integration Push notifications
+              Automated workflows
             </p>
           </div>
 
@@ -52,19 +48,17 @@ function HowItWorks() {
           <div className="step-text-box">
             <p className="step-number">03</p>
             <h3 className="heading-tertiary">
-              Receive meals at convenient time:
+              Build a knowledge base for your members
             </h3>
             <p className="step-description">
-              Best chefs in town will cook your selected meal every day, and we
-              will deliver it to your door whenever works best for you. You can
-              change delivery schedule and address daily!
+              Full Notion-style markdown editor Bullet lists, tables, dividers,
+              and text styling Embed videos, podcasts, files, and more HTML
+              embeds from 2,000+ websites Folders & sub-documents Universal
+              search Easily manage edit & view access Paid document sections
             </p>
           </div>
           <div className="step-img-box">
-            <img
-              src="https://omnifood.dev/img/app/app-screen-3.png"
-              className="step-img"
-            />
+            <img src="https://i.imgur.com/BkQPskU.png" className="step-img" />
           </div>
         </div>
       </section>

@@ -4,44 +4,43 @@ function Meals() {
   return (
     <section className="section-meals" id="meals">
       <div className="container center-text">
-        <span className="subheading">Meals</span>
+        <span className="subheading">Features</span>
         <h2 className="heading-secondary">
-          FoodCreila AI Chooses 5,000+ recipes
+          Built-in growth, Built-in engagement
         </h2>
       </div>
       <div className="container grid grid--3-cols margin-bottom-md">
         <div className="meal">
           <img
-            src="https://omnifood.dev/img/meals/meal-1.jpg"
+            src="https://cdn.prod.website-files.com/61096122507f250678302b22/64b3110de9db6e47d546f57c_EngagementFeatures.png"
             className="meal-img"
           />
           <div className="meal-content">
             <div className="meals-tags">
-              <span className="tag tag--vegeterian">Vegeterian</span>
+              <span className="tag tag--vegeterian">University</span>
             </div>
 
-            <p className="meal-title">Japanese Gyozas</p>
+            <p className="meal-title">Heartbeat University</p>
             <ul className="meal-attributes">
               <li className="meal-attribute">
-                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                <ion-icon class="meal-icon" name="book-outline"></ion-icon>
                 <span>
-                  <strong>650</strong> calories
+                  <strong>650 </strong>Courses
                 </span>
               </li>
               <li className="meal-attribute">
                 <ion-icon
                   class="meal-icon"
-                  name="restaurant-outline"
+                  name="chatbubbles-outline"
                 ></ion-icon>
                 <span>
-                  {" "}
-                  NutriScore &reg; <strong>74</strong>
+                  Discussions <strong>15500</strong>
                 </span>
               </li>
               <li className="meal-attribute">
-                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                <ion-icon class="meal-icon" name="calendar-outline"></ion-icon>
                 <span>
-                  <strong>4.9 </strong>rating(537)
+                  <strong>630 </strong>Events
                 </span>
               </li>
             </ul>
@@ -49,71 +48,68 @@ function Meals() {
         </div>
         <div className="meal">
           <img
-            src="https://omnifood.dev/img/meals/meal-2.jpg"
+            src="https://cdn.prod.website-files.com/61096122507f250678302b22/64b3110d7079905e886aa09f_GrowthFeatures.png"
             className="meal-img"
           />
           <div className="meal-content">
             <div className="meals-tags">
-              <span className="tag tag--vegan">Vegan</span>
-              <span className="tag tag--paleo">paleo</span>
+              <span className="tag tag--vegan">University</span>
+              <span className="tag tag--paleo">User Guide</span>
             </div>
-            <p className="meal-title">Avocado Salad</p>
+            <p className="meal-title">Engagement Features</p>
             <ul className="meal-attributes">
-              <li className="meal-attribute">
-                <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
-                <span>
-                  <strong>450</strong> calories
-                </span>
-              </li>
               <li className="meal-attribute">
                 <ion-icon
                   class="meal-icon"
-                  name="restaurant-outline"
+                  name="chatbubbles-outline"
                 ></ion-icon>
                 <span>
-                  {" "}
-                  NutriScore &reg; <strong>92</strong>
+                  <strong>11,000</strong> Discussions
                 </span>
               </li>
               <li className="meal-attribute">
-                <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                <ion-icon class="meal-icon" name="book-outline"></ion-icon>
                 <span>
-                  <strong>4.8 </strong>rating(441)
+                  Courses <strong>1020</strong>
+                </span>
+              </li>
+              <li className="meal-attribute">
+                <ion-icon class="meal-icon" name="calendar-outline"></ion-icon>
+                <span>
+                  <strong>900</strong> Events
                 </span>
               </li>
             </ul>
           </div>
         </div>
         <div className="diets">
-          <h3 className="heading-tertiary">Works with any diet</h3>
+          <h3 className="heading-tertiary">
+            Built-in growth, Built-in engagement
+          </h3>
           <ul className="list">
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              Vegeterian
+              Zoom
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              Pescatarian
+              Notion
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              Gluten-free
+              Outlook Calendar
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              Lactose-free
+              Stripe
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              Keto
+              Google Calendar
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              Low-FODMAP
-            </li>
-            <li className="list-item">
-              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              Kid-Friendly
+              Pabbly
             </li>
           </ul>
         </div>

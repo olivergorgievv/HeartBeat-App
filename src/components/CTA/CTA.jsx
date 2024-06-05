@@ -7,7 +7,7 @@ function CallToAction() {
         <div className="cta">
           <div className="cta-text-box">
             <h2 className="heading-secondary">
-              Get your first meals for free!
+              Built-in growth, Built-in engagement
             </h2>
             <p className="cta-text">
               Healthy, tasty and hassle-free meals are waiting for you. Start
