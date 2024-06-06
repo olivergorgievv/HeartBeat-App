@@ -27,7 +27,7 @@ function Cta() {
             </li>
             <li>
               <a className="main-nav-link" href="#meals">
-                Meals
+                Features
               </a>
             </li>
             <li>

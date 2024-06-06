@@ -116,7 +116,7 @@ function Meals() {
       </div>
       <div className="container all-recipes">
         <a href="" className="link">
-          See all recipes &rarr;
+          See all features &rarr;
         </a>
       </div>
     </section>
