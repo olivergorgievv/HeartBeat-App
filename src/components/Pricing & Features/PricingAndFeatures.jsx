@@ -14,7 +14,7 @@ function PricingAndFeatures() {
           <header className="plan-header">
             <p className="plan-name">Starter</p>
             <p className="plan-price">
-              <span>$</span>399
+              <span>$</span>40
             </p>
             <p className="plan-text">
               per month. That&apos;s just $13 per meal!
@@ -45,9 +45,9 @@ function PricingAndFeatures() {
         </div>
         <div className="pricing-plan pricing-plan--complete">
           <header className="plan-header">
-            <p className="plan-name">Complete</p>
+            <p className="plan-name">Growth</p>
             <p className="plan-price">
-              <span>$</span>649
+              <span>$</span>108
             </p>
             <p className="plan-text">
               per month. That&apos;s just $11 per meal!
@@ -91,34 +91,34 @@ function PricingAndFeatures() {
       <div className="container grid grid--4-cols">
         <div className="feature">
           <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
-          <p className="feature-title">Never cook again!</p>
+          <p className="feature-title">Engage members</p>
           <p className="feature-text">
-            Our subscriptions cover 365 days per year, even including major
-            holidays.
+            Bring conversations, content, events, courses, and more under 1 roof
+            to engage
           </p>
         </div>
         <div className="feature">
           <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
-          <p className="feature-title">Local and organic </p>
+          <p className="feature-title">Collect payment</p>
           <p className="feature-text">
-            Our cooks only use local, fresh, and organic products to prepare
-            your meals.
+            Set up paid tiers, upsells, payment pages, & a full paid affiliate
+            program
           </p>
         </div>
         <div className="feature">
           <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
-          <p className="feature-title">No waste</p>
+          <p className="feature-title">Customize infinitely</p>
           <p className="feature-text">
-            All our partners only use reusable containers to package all your
-            meals.
+            Completely tailor your community experience for different membership
+            types
           </p>
         </div>
         <div className="feature">
           <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
-          <p className="feature-title">Pause anytime</p>
+          <p className="feature-title">Expert tutorials</p>
           <p className="feature-text">
-            Going on vacation? Just pause your subscription, and we refund
-            unused days.
+            Video tours of successful Heartbeat communities, led by their
+            creators.
           </p>
         </div>
       </div>

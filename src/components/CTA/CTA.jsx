@@ -6,13 +6,10 @@ function CallToAction() {
       <div className="container">
         <div className="cta">
           <div className="cta-text-box">
-            <h2 className="heading-secondary">
-              Built-in growth, Built-in engagement
-            </h2>
+            <h2 className="heading-secondary">Launch a thriving community</h2>
             <p className="cta-text">
-              Healthy, tasty and hassle-free meals are waiting for you. Start
-              eating well today. You can cancel or pause anytime. And the first
-              meal is on us!
+              Engage members 10X faster. Bring conversations, content, events,
+              courses, and more under 1 roof to concentrate engagement.
             </p>
             <form className="cta-form" action="#">
               <div>
