@@ -27,7 +27,7 @@ function Footer() {
             </li>
           </ul>
           <p className="copyright">
-            Copyright &copy; 2024 by FoodCreila, Inc. All rights reserved.
+            Copyright &copy; 2024 by HeartBeat, Inc. All rights reserved.
           </p>
         </div>
         <div className="address-col">
@@ -41,7 +41,7 @@ function Footer() {
             </a>
             <br />
             <a className="footer-link" href="mailto:415-201-6370">
-              contact@foodcreila.com
+              contact@heartbeat.com
             </a>
           </address>
         </div>
@@ -75,7 +75,7 @@ function Footer() {
           <ul className="footer-nav">
             <li>
               <a className="footer-link" href="">
-                About FoodCreila
+                About HeartBeat
               </a>
             </li>
             <li>

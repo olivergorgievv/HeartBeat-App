@@ -6,7 +6,7 @@ function PricingAndFeatures() {
       <div className="container">
         <span className="subheading"> Pricing </span>
         <h2 className="heading-secondary">
-          Eating well without breaking the bank
+          Start a 14-day free trial. No credit card required.
         </h2>
       </div>
       <div className="container grid grid--2-cols margin-bottom-sm">
@@ -16,22 +16,28 @@ function PricingAndFeatures() {
             <p className="plan-price">
               <span>$</span>40
             </p>
-            <p className="plan-text">
-              per month. That&apos;s just $13 per meal!
-            </p>
+            <p className="plan-text">Save $9/month</p>
           </header>
           <ul className="list">
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>1 meal per day</span>
+              <span>Up to 1000 Members</span>
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Order from 1AM and 9PM</span>
+              <span>Discussions</span>
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Delivery is free</span>
+              <span>Events</span>
+            </li>
+            <li className="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Payments</span>
+            </li>
+            <li className="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Documents</span>
             </li>
             <li className="list-item">
               <ion-icon class="list-icon-red" name="close-outline"></ion-icon>
@@ -39,7 +45,7 @@ function PricingAndFeatures() {
           </ul>
           <div className="plan-sign-up">
             <a href="#" className="btn btn-full">
-              Start eating well
+              Start for free
             </a>
           </div>
         </div>
@@ -49,35 +55,41 @@ function PricingAndFeatures() {
             <p className="plan-price">
               <span>$</span>108
             </p>
-            <p className="plan-text">
-              per month. That&apos;s just $11 per meal!
-            </p>
+            <p className="plan-text">Save $21/month</p>
           </header>
           <ul className="list">
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
               <span>
-                <strong>2</strong> meal per day
+                <strong>Unlimited </strong>Members
               </span>
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
               <span>
-                Order <strong>24/7</strong>
+                Lower <strong>Fees</strong>
               </span>
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Delivery is free</span>
+              <span>White-labeling</span>
             </li>
             <li className="list-item">
               <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
-              <span>Get acces to latest recipes</span>
+              <span>API Access</span>
+            </li>
+            <li className="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>Conversion Tracking</span>
+            </li>
+            <li className="list-item">
+              <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+              <span>1:1 Onboarding</span>
             </li>
           </ul>
           <div className="plan-sign-up">
             <a href="#" className="btn btn-full">
-              Start eating well
+              Start for free
             </a>
           </div>
         </div>
@@ -90,7 +102,7 @@ function PricingAndFeatures() {
       </div>
       <div className="container grid grid--4-cols">
         <div className="feature">
-          <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
+          <ion-icon class="feature-icon" name="people-outline"></ion-icon>
           <p className="feature-title">Engage members</p>
           <p className="feature-text">
             Bring conversations, content, events, courses, and more under 1 roof
@@ -98,7 +110,7 @@ function PricingAndFeatures() {
           </p>
         </div>
         <div className="feature">
-          <ion-icon class="feature-icon" name="nutrition-outline"></ion-icon>
+          <ion-icon class="feature-icon" name="wallet-outline"></ion-icon>
           <p className="feature-title">Collect payment</p>
           <p className="feature-text">
             Set up paid tiers, upsells, payment pages, & a full paid affiliate
@@ -106,7 +118,7 @@ function PricingAndFeatures() {
           </p>
         </div>
         <div className="feature">
-          <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+          <ion-icon class="feature-icon" name="attach-outline"></ion-icon>
           <p className="feature-title">Customize infinitely</p>
           <p className="feature-text">
             Completely tailor your community experience for different membership
@@ -114,7 +126,7 @@ function PricingAndFeatures() {
           </p>
         </div>
         <div className="feature">
-          <ion-icon class="feature-icon" name="pause-outline"></ion-icon>
+          <ion-icon class="feature-icon" name="link-outline"></ion-icon>
           <p className="feature-title">Expert tutorials</p>
           <p className="feature-text">
             Video tours of successful Heartbeat communities, led by their
